@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f8f8f8;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    font-family: arial;
+}
+
+#main-heading{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+}
+#main-box{
+    height: 500px;
+    width: 24%;
+    margin: 200px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+#container{
+    margin: auto;
+    height: 60%;
+    width: 87%;
+    padding: 10px;
+}
+
+#password-container{
+    display: flex;
+    justify-content: center;
+}
+
+.password { 
+    display: flex;
+    align-items: center;
+} 
+
+#text-box{
+    flex: 1;
+    padding: 7px 10px; 
+    background-color: #ddd; 
+    border: 0; 
+    color: #333;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#copy-btn{
+    background-color: #4caf50; 
+    color: #fff;
+    padding: 5px 15px; 
+    border: 0; 
+    border-radius: 10px; 
+    height: 41px;
+    cursor: pointer;
+    width: 85px;
+}
+
+#range{
+    margin: 25px auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.spans{
+    margin: auto 10px;
+    color: #fff;
+}
+
+#range-value{
+    text-align: center;
+}
+
+#range-input{
+    width: 60%;
+}
+
+#options{
+    display: grid;
+    grid-template-columns: 100px 250px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+#btn-container{
+    display: flex;
+    margin: 20px auto auto;
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+}
+
+#generate-btn{
+    background-color: #4caf50; 
+    color: #fff;
+    padding: 5px 15px; 
+    border: 0; 
+    border-radius: 10px; 
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
